@@ -1,12 +1,13 @@
 {
   "name": "react_native_state_props",
   "version": "0.0.1",
-  "private": true,
+  "description": "Example react-native with state props",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "16.6.3",
     "react-native": "0.57.8"
   },
@@ -18,5 +19,10 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "author": {
+    "name": "Anderson Costa",
+    "email": "andcosta.dev@gmail.com"
+  },
+  "license": "MIT"
 }
